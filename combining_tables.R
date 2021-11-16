@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
 # Combining tables --------------------------------------------------------
 
+=======
+#### Combining tables ####
+>>>>>>> 6984b4db841b95d96e786f47179b3e8c6290c6db
 
 # import US murders data
 library(tidyverse)
@@ -41,9 +45,13 @@ inner_join(tab1, tab2)
 semi_join(tab1, tab2)
 anti_join(tab1, tab2)
 
+<<<<<<< HEAD
 
 # Binding -----------------------------------------------------------------
 
+=======
+#### binding ####
+>>>>>>> 6984b4db841b95d96e786f47179b3e8c6290c6db
 
 bind_cols(a = 1:3, b = 4:6)
 
@@ -58,6 +66,7 @@ tab2 <- tab[3:4,]
 bind_rows(tab1, tab2)
 
 
+<<<<<<< HEAD
 
 # set operators -----------------------------------------------------------------
 
@@ -114,4 +123,7 @@ top <- Batting %>%
   arrange(desc(HR)) %>%    # arrange by descending HR count
   slice(1:10)    # take entries 1-10
 top %>% as_tibble()
+=======
+#### set operators ####
+>>>>>>> 6984b4db841b95d96e786f47179b3e8c6290c6db
 
